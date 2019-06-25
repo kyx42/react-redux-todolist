@@ -1,0 +1,25 @@
+{
+  "name": "react-redux-todolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "docker-compose up -d",
+    "stop": "./script/docker_stop.sh",
+    "down": "docker-compose down",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "todolist-install": "./script/env_install.sh",
+    "eslint": "npm --prefix ./packages/react-todolist run eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyx42/react-redux-todolist.git"
+  },
+  "keywords": [],
+  "author": "Florian Vincent",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyx42/react-redux-todolist/issues"
+  },
+  "homepage": "https://github.com/kyx42/react-redux-todolist#readme"
+}
